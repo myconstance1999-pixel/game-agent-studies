@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "curated": "2026-10-25",
+  "source": "Existing local game-agent studies; pinned third-party GameScaling subset and source-only Whale Craft reference",
+  "license": "Original code license unspecified; Apache2.0 only for identified unchanged upstream subset",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 33,
+      "sha256": "4cebe298955d2592a58e7350ef91399c017302b27bbbbfa8620575379a0ac2c9",
+      "source": "curated documentation or generated synthetic fixture; see PROVENANCE.md"
+    },
+    {
+      "path": "DSH_MINECRAFT.md",
+      "bytes": 1571,
+      "sha256": "6f00808af9d38daa6dc05bafd3b45801a410a375e02b257e3f8483f0d058ce07",
+      "source": "curated documentation or generated synthetic fixture; see PROVENANCE.md"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 1523,
+      "sha256": "b4966ea6116a93982373a6a62ac74da0922443d7a2b210e3659bd87f077413ac",
+      "source": "curated documentation or generated synthetic fixture; see PROVENANCE.md"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2854,
+      "sha256": "7392b8a88f406b947fd6c8f61ad6c414c174ad2f4f16960fe9c6704aa2c1779a",
+      "source": "curated documentation or generated synthetic fixture; see PROVENANCE.md"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 903,
+      "sha256": "8e7bc2d90c1cc4eaf420979384133f9ffef16945830ef8523e3b54c3c62c1f9d",
+      "source": "curated documentation or generated synthetic fixture; see PROVENANCE.md"
+    },
+    {
+      "path": "action-outcome/codec_witness.py",
+      "bytes": 12525,
+      "sha256": "f6d6557c13ea76bde5f92700786ea5036878933d60328d989a45be5f1cd63d1b",
+      "source": "action-outcome-fidelity/codec_witness.py",
+      "sourceSha256": "f6d6557c13ea76bde5f92700786ea5036878933d60328d989a45be5f1cd63d1b",
+      "change": "unchanged"
+    },
+    {
+      "path": "action-outcome/results/witness.json",
+      "bytes": 28843,
+      "sha256": "83b97ee40330b05dab4329929c482217d8d0c22dd733c6f3cde097e51db42649",
+      "source": "curated documentation or generated synthetic fixture; see PROVENANCE.md"
+    },
+    {
+      "path": "doom/experiment.json",
+      "bytes": 856,
+      "sha256": "8780eee57130621c4ea815748cdc88b0b0ac7cd2ff54af12e7e3483c3338161b",
+      "source": "gamescaling-correction/doom/experiment.json",
+      "sourceSha256": "88bc448fc240ed2e5ea53faed46dd7e2370caaea39f5a5c765521b3092ddedcb",
+      "change": "Omitted non-executable unrun training_draft; evaluator configuration retained."
+    },
+    {
+      "path": "doom/export_pairs.py",
+      "bytes": 6952,
+      "sha256": "aaa9cbb634de6eda4d2a2d75413c6bc9416ce171ce33f707c8cdb5d665615a32",
+      "source": "gamescaling-correction/doom/export_pairs.py",
+      "sourceSha256": "949bada2db06b9a009eec45454cbaa0e122b9e2edeb21f51a6624bbe7202aa1b",
+      "change": "Only pinned dependency path relocated to explicitly included third_party subset; behavior unchanged."
+    },
+    {
+      "path": "doom/protocol.py",
+      "bytes": 7172,
+      "sha256": "3dbe84b93c440d45a740bce5dcd5adbf665bd0e427339d0c9b57efc5b488a83c",
+      "source": "gamescaling-correction/doom/protocol.py",
+      "sourceSha256": "3dbe84b93c440d45a740bce5dcd5adbf665bd0e427339d0c9b57efc5b488a83c",
+      "change": "unchanged"
+    },
+    {
+      "path": "doom/run.py",
+      "bytes": 13090,
+      "sha256": "840a09da0780a916ca398ade62cfcf5b96d31131d012c886040825d8105dc2fe",
+      "source": "gamescaling-correction/doom/run.py",
+      "sourceSha256": "4e99835ccf4458172382e22b65f5d4a5755ee43278b83b4cabc3239cc404fe77",
+      "change": "Only pinned dependency path relocated to explicitly included third_party subset; behavior unchanged."
+    },
+    {
+      "path": "doom/test_export_pairs.py",
+      "bytes": 6445,
+      "sha256": "73b29b1a53edb507b4dae30a434818e1a19d68d43fd04d55a9cd570c1f0d3065",
+      "source": "gamescaling-correction/doom/test_export_pairs.py",
+      "sourceSha256": "73b29b1a53edb507b4dae30a434818e1a19d68d43fd04d55a9cd570c1f0d3065",
+      "change": "unchanged"
+    },
+    {
+      "path": "doom/test_protocol.py",
+      "bytes": 7784,
+      "sha256": "391b1dda95c90cc51d00fcfcf29a0664dcfad0fa24af220cd9ace2c877731831",
+      "source": "gamescaling-correction/doom/test_protocol.py",
+      "sourceSha256": "ebe24632f8a77ad44253b165a070ed2392c57cf3c212b46b6c962d5880b68f64",
+      "change": "Only pinned dependency path relocated to explicitly included third_party subset; behavior unchanged."
+    },
+    {
+      "path": "doom/test_runtime.py",
+      "bytes": 10660,
+      "sha256": "a6704bf7d27086f6d3b343c6f2226e55c35497d4eeaff368263610c850b6db4f",
+      "source": "gamescaling-correction/doom/test_runtime.py",
+      "sourceSha256": "a6704bf7d27086f6d3b343c6f2226e55c35497d4eeaff368263610c850b6db4f",
+      "change": "unchanged"
+    },
+    {
+      "path": "mc/mouse_quantization_probe.py",
+      "bytes": 3757,
+      "sha256": "6ca8b95711f9bb7cee34b27ee19594976299ac9ea9d519cb9780b417b72ca1c7",
+      "source": "gamescaling-correction/mc/mouse_quantization_probe.py",
+      "sourceSha256": "6ca8b95711f9bb7cee34b27ee19594976299ac9ea9d519cb9780b417b72ca1c7",
+      "change": "unchanged"
+    },
+    {
+      "path": "mc/mouse_quantization_result.json",
+      "bytes": 1706,
+      "sha256": "5bcfeca2a219acf3289b365bc44527f2fe96a7ab4e7ee932ca489a8e03d7bbc1",
+      "source": "curated documentation or generated synthetic fixture; see PROVENANCE.md"
+    },
+    {
+      "path": "third_party/GameScaling-LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "source": "gamescaling-correction/evidence/release/upstream-6764efab/LICENSE",
+      "sourceSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "change": "unchanged"
+    },
+    {
+      "path": "third_party/gamescaling/__init__.py",
+      "bytes": 948,
+      "sha256": "e4358222a72e8ec2effc7036b0a72688caabf31570387819230c2b1e19c85598",
+      "source": "gamescaling-correction/evidence/release/upstream-6764efab/gamescaling/__init__.py",
+      "sourceSha256": "e4358222a72e8ec2effc7036b0a72688caabf31570387819230c2b1e19c85598",
+      "change": "unchanged"
+    },
+    {
+      "path": "third_party/gamescaling/action.py",
+      "bytes": 8254,
+      "sha256": "39e3c9dcf63aeebe191c5b4c59dabae0211abc0257b8e62bf6c0ff2d4b0563f4",
+      "source": "gamescaling-correction/evidence/release/upstream-6764efab/gamescaling/action.py",
+      "sourceSha256": "39e3c9dcf63aeebe191c5b4c59dabae0211abc0257b8e62bf6c0ff2d4b0563f4",
+      "change": "unchanged"
+    },
+    {
+      "path": "third_party/gamescaling/keymaps.py",
+      "bytes": 2580,
+      "sha256": "6f067bf9ef5697809e944a5adf3eb947b3621bf453b18aeacc7cf057374a17f0",
+      "source": "gamescaling-correction/evidence/release/upstream-6764efab/gamescaling/keymaps.py",
+      "sourceSha256": "6f067bf9ef5697809e944a5adf3eb947b3621bf453b18aeacc7cf057374a17f0",
+      "change": "unchanged; concrete transitive prompt dependency exposed by initial export test"
+    },
+    {
+      "path": "third_party/gamescaling/policy.py",
+      "bytes": 8761,
+      "sha256": "daabe80fcba7134070fb68d12246e3a423a360194e394ace658aa6cad4961a44",
+      "source": "gamescaling-correction/evidence/release/upstream-6764efab/gamescaling/policy.py",
+      "sourceSha256": "daabe80fcba7134070fb68d12246e3a423a360194e394ace658aa6cad4961a44",
+      "change": "unchanged"
+    },
+    {
+      "path": "third_party/gamescaling/prompt.py",
+      "bytes": 6186,
+      "sha256": "3c5a617a30fa1b3567ee0d63c564f10615c946ee7d0cc8f8c14ba4fb6906f7a5",
+      "source": "gamescaling-correction/evidence/release/upstream-6764efab/gamescaling/prompt.py",
+      "sourceSha256": "3c5a617a30fa1b3567ee0d63c564f10615c946ee7d0cc8f8c14ba4fb6906f7a5",
+      "change": "unchanged"
+    }
+  ]
+}

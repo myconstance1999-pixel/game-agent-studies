@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "evidence_type": "PURE_ARITHMETIC_REFERENCE_CHECK_NOT_GAMEPLAY",
+  "assumptions": {
+    "integer_per_mille_range": [
+      -1000,
+      1000
+    ],
+    "native_steps": 4,
+    "nominal_step_ms": 50,
+    "native_low_level_camera_gain": 3,
+    "linear_conversion": "camera=d/3; native pixels=trunc(3*camera)",
+    "arithmetic": "exact rational, not measured Java floating-point behavior",
+    "action_path": "continuous env path; excludes optional VPT agent quantization"
+  },
+  "properties": [
+    "carry endpoint equals chunk truncation",
+    "every cumulative carry endpoint is within one pixel of ideal",
+    "naive endpoint discrepancy is at most steps-1 pixels",
+    "positive/negative pairs cancel for total, naive, and every carry step"
+  ],
+  "axes": {
+    "X": {
+      "dimension": 640,
+      "actions_checked": 2001,
+      "naive_endpoint_mismatches": 1440,
+      "positive_mismatches": 720,
+      "negative_mismatches": 720,
+      "maximum_endpoint_difference_pixels": 3,
+      "example_value_6": {
+        "desired": "96/25",
+        "total": 3,
+        "naive": 0,
+        "carry": [
+          0,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "Y": {
+      "dimension": 360,
+      "actions_checked": 2001,
+      "naive_endpoint_mismatches": 1500,
+      "positive_mismatches": 750,
+      "negative_mismatches": 750,
+      "maximum_endpoint_difference_pixels": 3,
+      "example_value_6": {
+        "desired": "54/25",
+        "total": 2,
+        "naive": 0,
+        "carry": [
+          0,
+          1,
+          0,
+          1
+        ]
+      }
+    }
+  },
+  "limitation": "No observed GameScaling adapter bug or Minecraft/model performance result."
+}

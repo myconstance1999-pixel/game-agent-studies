@@ -1,0 +1,1571 @@
+{
+  "kind": "deterministic mathematical witnesses, not a model/game benchmark",
+  "transition_order": "button edge at current cursor, then mouse movement",
+  "fraction_encoding": "nonintegral rationals are exact numerator/denominator strings",
+  "default_initial_cursor": [
+    0,
+    0
+  ],
+  "initial_button_down": false,
+  "witnesses": {
+    "aggregate_click_collision": {
+      "left": {
+        "trace": [
+          [
+            1,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            true
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ]
+        ],
+        "aggregate": {
+          "delta": [
+            1,
+            0
+          ],
+          "buttons": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        "button_edges": {
+          "slots": 6,
+          "edges": [
+            {
+              "slot": 2,
+              "down": true,
+              "offset": [
+                1,
+                0
+              ]
+            },
+            {
+              "slot": 3,
+              "down": false,
+              "offset": [
+                1,
+                0
+              ]
+            }
+          ],
+          "delta": [
+            1,
+            0
+          ]
+        },
+        "outcome": {
+          "final_cursor": [
+            1,
+            0
+          ],
+          "button_edges": [
+            {
+              "slot": 2,
+              "down": true,
+              "cursor": [
+                1,
+                0
+              ]
+            },
+            {
+              "slot": 3,
+              "down": false,
+              "cursor": [
+                1,
+                0
+              ]
+            }
+          ],
+          "click_positions": [
+            [
+              1,
+              0
+            ]
+          ],
+          "drag_contacts": []
+        }
+      },
+      "right": {
+        "trace": [
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            true
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            1,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ]
+        ],
+        "aggregate": {
+          "delta": [
+            1,
+            0
+          ],
+          "buttons": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        "button_edges": {
+          "slots": 6,
+          "edges": [
+            {
+              "slot": 2,
+              "down": true,
+              "offset": [
+                0,
+                0
+              ]
+            },
+            {
+              "slot": 3,
+              "down": false,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "delta": [
+            1,
+            0
+          ]
+        },
+        "outcome": {
+          "final_cursor": [
+            1,
+            0
+          ],
+          "button_edges": [
+            {
+              "slot": 2,
+              "down": true,
+              "cursor": [
+                0,
+                0
+              ]
+            },
+            {
+              "slot": 3,
+              "down": false,
+              "cursor": [
+                0,
+                0
+              ]
+            }
+          ],
+          "click_positions": [
+            [
+              0,
+              0
+            ]
+          ],
+          "drag_contacts": []
+        }
+      },
+      "asserted": [
+        "aggregate equal",
+        "endpoint equal",
+        "click positions unequal"
+      ]
+    },
+    "isolated_edge_preservation": {
+      "reference": {
+        "trace": [
+          [
+            1,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            true
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ]
+        ],
+        "aggregate": {
+          "delta": [
+            1,
+            0
+          ],
+          "buttons": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        "button_edges": {
+          "slots": 6,
+          "edges": [
+            {
+              "slot": 2,
+              "down": true,
+              "offset": [
+                1,
+                0
+              ]
+            },
+            {
+              "slot": 3,
+              "down": false,
+              "offset": [
+                1,
+                0
+              ]
+            }
+          ],
+          "delta": [
+            1,
+            0
+          ]
+        },
+        "outcome": {
+          "final_cursor": [
+            1,
+            0
+          ],
+          "button_edges": [
+            {
+              "slot": 2,
+              "down": true,
+              "cursor": [
+                1,
+                0
+              ]
+            },
+            {
+              "slot": 3,
+              "down": false,
+              "cursor": [
+                1,
+                0
+              ]
+            }
+          ],
+          "click_positions": [
+            [
+              1,
+              0
+            ]
+          ],
+          "drag_contacts": []
+        }
+      },
+      "decoded_trace": [
+        [
+          0,
+          0,
+          false
+        ],
+        [
+          1,
+          0,
+          false
+        ],
+        [
+          0,
+          0,
+          true
+        ],
+        [
+          0,
+          0,
+          false
+        ],
+        [
+          0,
+          0,
+          false
+        ],
+        [
+          0,
+          0,
+          false
+        ]
+      ],
+      "metrics": {
+        "endpoint_l1": 0,
+        "click_log_equal": true,
+        "button_edges_equal": true,
+        "drag_contacts_equal": true
+      },
+      "exhaustive_domain": {
+        "dx_alphabet": [
+          -1,
+          0,
+          1
+        ],
+        "dy": 0,
+        "slots": 6,
+        "buttons": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "cases": 729
+      },
+      "assumptions": [
+        "additive unclipped motion",
+        "only button-edge interactions",
+        "no hover, dwell, drag, collision, or timing-dependent effects"
+      ],
+      "asserted": [
+        "all enumerated edge positions, click logs and endpoints preserved"
+      ]
+    },
+    "held_drag_counterexample": {
+      "left": {
+        "trace": [
+          [
+            1,
+            0,
+            true
+          ],
+          [
+            0,
+            1,
+            true
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ]
+        ],
+        "aggregate": {
+          "delta": [
+            1,
+            1
+          ],
+          "buttons": [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "button_edges": {
+          "slots": 6,
+          "edges": [
+            {
+              "slot": 0,
+              "down": true,
+              "offset": [
+                0,
+                0
+              ]
+            },
+            {
+              "slot": 2,
+              "down": false,
+              "offset": [
+                1,
+                1
+              ]
+            }
+          ],
+          "delta": [
+            1,
+            1
+          ]
+        },
+        "outcome": {
+          "final_cursor": [
+            1,
+            1
+          ],
+          "button_edges": [
+            {
+              "slot": 0,
+              "down": true,
+              "cursor": [
+                0,
+                0
+              ]
+            },
+            {
+              "slot": 2,
+              "down": false,
+              "cursor": [
+                1,
+                1
+              ]
+            }
+          ],
+          "click_positions": [
+            [
+              0,
+              0
+            ]
+          ],
+          "drag_contacts": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      "right": {
+        "trace": [
+          [
+            0,
+            1,
+            true
+          ],
+          [
+            1,
+            0,
+            true
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ]
+        ],
+        "aggregate": {
+          "delta": [
+            1,
+            1
+          ],
+          "buttons": [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "button_edges": {
+          "slots": 6,
+          "edges": [
+            {
+              "slot": 0,
+              "down": true,
+              "offset": [
+                0,
+                0
+              ]
+            },
+            {
+              "slot": 2,
+              "down": false,
+              "offset": [
+                1,
+                1
+              ]
+            }
+          ],
+          "delta": [
+            1,
+            1
+          ]
+        },
+        "outcome": {
+          "final_cursor": [
+            1,
+            1
+          ],
+          "button_edges": [
+            {
+              "slot": 0,
+              "down": true,
+              "cursor": [
+                0,
+                0
+              ]
+            },
+            {
+              "slot": 2,
+              "down": false,
+              "cursor": [
+                1,
+                1
+              ]
+            }
+          ],
+          "click_positions": [
+            [
+              0,
+              0
+            ]
+          ],
+          "drag_contacts": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      "assumptions": [
+        "held drag contacts raw-step endpoints"
+      ],
+      "asserted": [
+        "edge codec equal",
+        "actual edge positions equal",
+        "drag contacts unequal"
+      ]
+    },
+    "clipping_counterexample": {
+      "bounds": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "left": {
+        "trace": [
+          [
+            -1,
+            0,
+            false
+          ],
+          [
+            1,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ]
+        ],
+        "aggregate": {
+          "delta": [
+            0,
+            0
+          ],
+          "buttons": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "button_edges": {
+          "slots": 6,
+          "edges": [],
+          "delta": [
+            0,
+            0
+          ]
+        },
+        "outcome": {
+          "final_cursor": [
+            1,
+            0
+          ],
+          "button_edges": [],
+          "click_positions": [],
+          "drag_contacts": []
+        }
+      },
+      "right": {
+        "trace": [
+          [
+            1,
+            0,
+            false
+          ],
+          [
+            -1,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ]
+        ],
+        "aggregate": {
+          "delta": [
+            0,
+            0
+          ],
+          "buttons": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "button_edges": {
+          "slots": 6,
+          "edges": [],
+          "delta": [
+            0,
+            0
+          ]
+        },
+        "outcome": {
+          "final_cursor": [
+            0,
+            0
+          ],
+          "button_edges": [],
+          "click_positions": [],
+          "drag_contacts": []
+        }
+      },
+      "assumptions": [
+        "codec sums commands; it does not store measured clipped endpoints"
+      ],
+      "asserted": [
+        "both codecs equal",
+        "actual endpoints unequal"
+      ]
+    },
+    "harmless_no_event": {
+      "left": {
+        "trace": [
+          [
+            1,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ]
+        ],
+        "aggregate": {
+          "delta": [
+            1,
+            0
+          ],
+          "buttons": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "button_edges": {
+          "slots": 6,
+          "edges": [],
+          "delta": [
+            1,
+            0
+          ]
+        },
+        "outcome": {
+          "final_cursor": [
+            1,
+            0
+          ],
+          "button_edges": [],
+          "click_positions": [],
+          "drag_contacts": []
+        }
+      },
+      "right": {
+        "trace": [
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            1,
+            0,
+            false
+          ],
+          [
+            0,
+            0,
+            false
+          ]
+        ],
+        "aggregate": {
+          "delta": [
+            1,
+            0
+          ],
+          "buttons": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "button_edges": {
+          "slots": 6,
+          "edges": [],
+          "delta": [
+            1,
+            0
+          ]
+        },
+        "outcome": {
+          "final_cursor": [
+            1,
+            0
+          ],
+          "button_edges": [],
+          "click_positions": [],
+          "drag_contacts": []
+        }
+      },
+      "uniform_replay": {
+        "trace": [
+          [
+            "1/6",
+            0,
+            false
+          ],
+          [
+            "1/6",
+            0,
+            false
+          ],
+          [
+            "1/6",
+            0,
+            false
+          ],
+          [
+            "1/6",
+            0,
+            false
+          ],
+          [
+            "1/6",
+            0,
+            false
+          ],
+          [
+            "1/6",
+            0,
+            false
+          ]
+        ],
+        "aggregate": {
+          "delta": [
+            1,
+            0
+          ],
+          "buttons": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "button_edges": {
+          "slots": 6,
+          "edges": [],
+          "delta": [
+            1,
+            0
+          ]
+        },
+        "outcome": {
+          "final_cursor": [
+            1,
+            0
+          ],
+          "button_edges": [],
+          "click_positions": [],
+          "drag_contacts": []
+        }
+      },
+      "asserted": [
+        "same endpoint-only outcome despite different motion timing"
+      ]
+    },
+    "split_and_repair": {
+      "goal": "last selection at (1,0), final cursor (1,0)",
+      "failed_aggregate_replay": {
+        "trace": [
+          [
+            "1/6",
+            0,
+            false
+          ],
+          [
+            "1/6",
+            0,
+            false
+          ],
+          [
+            "1/6",
+            0,
+            true
+          ],
+          [
+            "1/6",
+            0,
+            false
+          ],
+          [
+            "1/6",
+            0,
+            false
+          ],
+          [
+            "1/6",
+            0,
+            false
+          ]
+        ],
+        "aggregate": {
+          "delta": [
+            1,
+            0
+          ],
+          "buttons": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        "button_edges": {
+          "slots": 6,
+          "edges": [
+            {
+              "slot": 2,
+              "down": true,
+              "offset": [
+                "1/3",
+                0
+              ]
+            },
+            {
+              "slot": 3,
+              "down": false,
+              "offset": [
+                "1/2",
+                0
+              ]
+            }
+          ],
+          "delta": [
+            1,
+            0
+          ]
+        },
+        "outcome": {
+          "final_cursor": [
+            1,
+            0
+          ],
+          "button_edges": [
+            {
+              "slot": 2,
+              "down": true,
+              "cursor": [
+                "1/3",
+                0
+              ]
+            },
+            {
+              "slot": 3,
+              "down": false,
+              "cursor": [
+                "1/2",
+                0
+              ]
+            }
+          ],
+          "click_positions": [
+            [
+              "1/3",
+              0
+            ]
+          ],
+          "drag_contacts": []
+        }
+      },
+      "preplanned_split_packets": [
+        {
+          "delta": [
+            1,
+            0
+          ],
+          "buttons": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "delta": [
+            0,
+            0
+          ],
+          "buttons": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "split_outcome": {
+        "final_cursor": [
+          1,
+          0
+        ],
+        "button_edges": [
+          {
+            "slot": 8,
+            "down": true,
+            "cursor": [
+              1,
+              0
+            ]
+          },
+          {
+            "slot": 9,
+            "down": false,
+            "cursor": [
+              1,
+              0
+            ]
+          }
+        ],
+        "click_positions": [
+          [
+            1,
+            0
+          ]
+        ],
+        "drag_contacts": []
+      },
+      "repair_outcome": {
+        "final_cursor": [
+          1,
+          0
+        ],
+        "button_edges": [
+          {
+            "slot": 2,
+            "down": true,
+            "cursor": [
+              "1/3",
+              0
+            ]
+          },
+          {
+            "slot": 3,
+            "down": false,
+            "cursor": [
+              "1/2",
+              0
+            ]
+          },
+          {
+            "slot": 8,
+            "down": true,
+            "cursor": [
+              1,
+              0
+            ]
+          },
+          {
+            "slot": 9,
+            "down": false,
+            "cursor": [
+              1,
+              0
+            ]
+          }
+        ],
+        "click_positions": [
+          [
+            "1/3",
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "drag_contacts": []
+      },
+      "repair_packet": {
+        "delta": [
+          0,
+          0
+        ],
+        "buttons": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "packet_duration_ms": 200,
+      "original_packets": 1,
+      "split_packets": 2,
+      "repair_total_packets": 2,
+      "native_duration_ms": {
+        "original": 200,
+        "split": 400,
+        "repair": 400
+      },
+      "assumptions": [
+        "selection is overwritten by a later click; no irreversible penalty",
+        "split/repair chosen by an oracle, not a learned agent",
+        "no 200-ms goal deadline"
+      ],
+      "asserted": [
+        "aggregate replay misses goal",
+        "split and later repair reach goal",
+        "repair retains the original wrong click in its log"
+      ]
+    },
+    "state_conditioned_outcome_distortion": {
+      "reference_trace": [
+        [
+          0,
+          0,
+          false
+        ],
+        [
+          0,
+          0,
+          false
+        ],
+        [
+          0,
+          0,
+          true
+        ],
+        [
+          0,
+          0,
+          false
+        ],
+        [
+          0,
+          0,
+          false
+        ],
+        [
+          0,
+          0,
+          false
+        ]
+      ],
+      "candidate_trace": [
+        [
+          1,
+          0,
+          false
+        ],
+        [
+          0,
+          0,
+          false
+        ],
+        [
+          0,
+          0,
+          true
+        ],
+        [
+          0,
+          0,
+          false
+        ],
+        [
+          0,
+          0,
+          false
+        ],
+        [
+          0,
+          0,
+          false
+        ]
+      ],
+      "reference_encodings": {
+        "aggregate": {
+          "delta": [
+            0,
+            0
+          ],
+          "buttons": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        "edges": {
+          "slots": 6,
+          "edges": [
+            {
+              "slot": 2,
+              "down": true,
+              "offset": [
+                0,
+                0
+              ]
+            },
+            {
+              "slot": 3,
+              "down": false,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "delta": [
+            0,
+            0
+          ]
+        }
+      },
+      "candidate_encodings": {
+        "aggregate": {
+          "delta": [
+            1,
+            0
+          ],
+          "buttons": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        "edges": {
+          "slots": 6,
+          "edges": [
+            {
+              "slot": 2,
+              "down": true,
+              "offset": [
+                1,
+                0
+              ]
+            },
+            {
+              "slot": 3,
+              "down": false,
+              "offset": [
+                1,
+                0
+              ]
+            }
+          ],
+          "delta": [
+            1,
+            0
+          ]
+        }
+      },
+      "slot_partition": {
+        "left": "x < 2",
+        "right": "x >= 2",
+        "y": "ignored"
+      },
+      "outcome_projection": "clicked slot identity only; within-slot cursor differences are irrelevant",
+      "click_semantics": "button edge precedes same-slot movement; candidate moves in slot 0, clicks in slot 2",
+      "cases": [
+        {
+          "initial_cursor": [
+            0,
+            0
+          ],
+          "reference_outcome": {
+            "final_cursor": [
+              0,
+              0
+            ],
+            "button_edges": [
+              {
+                "slot": 2,
+                "down": true,
+                "cursor": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "slot": 3,
+                "down": false,
+                "cursor": [
+                  0,
+                  0
+                ]
+              }
+            ],
+            "click_positions": [
+              [
+                0,
+                0
+              ]
+            ],
+            "drag_contacts": []
+          },
+          "candidate_outcome": {
+            "final_cursor": [
+              1,
+              0
+            ],
+            "button_edges": [
+              {
+                "slot": 2,
+                "down": true,
+                "cursor": [
+                  1,
+                  0
+                ]
+              },
+              {
+                "slot": 3,
+                "down": false,
+                "cursor": [
+                  1,
+                  0
+                ]
+              }
+            ],
+            "click_positions": [
+              [
+                1,
+                0
+              ]
+            ],
+            "drag_contacts": []
+          },
+          "reference_slots": [
+            "left"
+          ],
+          "candidate_slots": [
+            "left"
+          ],
+          "action_displacement_l1": 1,
+          "slot_outcome_distortion": 0
+        },
+        {
+          "initial_cursor": [
+            1,
+            0
+          ],
+          "reference_outcome": {
+            "final_cursor": [
+              1,
+              0
+            ],
+            "button_edges": [
+              {
+                "slot": 2,
+                "down": true,
+                "cursor": [
+                  1,
+                  0
+                ]
+              },
+              {
+                "slot": 3,
+                "down": false,
+                "cursor": [
+                  1,
+                  0
+                ]
+              }
+            ],
+            "click_positions": [
+              [
+                1,
+                0
+              ]
+            ],
+            "drag_contacts": []
+          },
+          "candidate_outcome": {
+            "final_cursor": [
+              2,
+              0
+            ],
+            "button_edges": [
+              {
+                "slot": 2,
+                "down": true,
+                "cursor": [
+                  2,
+                  0
+                ]
+              },
+              {
+                "slot": 3,
+                "down": false,
+                "cursor": [
+                  2,
+                  0
+                ]
+              }
+            ],
+            "click_positions": [
+              [
+                2,
+                0
+              ]
+            ],
+            "drag_contacts": []
+          },
+          "reference_slots": [
+            "left"
+          ],
+          "candidate_slots": [
+            "right"
+          ],
+          "action_displacement_l1": 1,
+          "slot_outcome_distortion": 1
+        }
+      ],
+      "assumptions": [
+        "unclipped additive motion",
+        "same layout and identical action pair in both states",
+        "one isolated click; button states match exactly"
+      ],
+      "asserted": [
+        "identical action-only L1 error",
+        "reference selects left slot in both states",
+        "candidate distortion is 0 inside the slot and 1 across its boundary"
+      ],
+      "limit": "A declared state-conditioned metric distinction, not novelty or empirical model evidence."
+    }
+  },
+  "all_assertions_passed": true,
+  "receipt": {
+    "command": [
+      "python",
+      "action-outcome/codec_witness.py"
+    ],
+    "source_sha256": "f6d6557c13ea76bde5f92700786ea5036878933d60328d989a45be5f1cd63d1b",
+    "runtime_seconds": 0.008611249999376014
+  }
+}
